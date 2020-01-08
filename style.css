@@ -1,0 +1,23 @@
+#high-score{
+    float: left;
+    color: indigo;
+} 
+#counter{
+    float: right;
+}
+body{
+    text-align: center;
+}
+h1{
+    font-weight: 1000;
+}
+section{
+    padding-top: 10%;
+    margin: auto;
+    max-width: 50%;
+
+}
+button{
+    color: white;
+    background: indigo;
+}
