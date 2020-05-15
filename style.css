@@ -1,4 +1,4 @@
-#high-score{
+a{
     float: left;
     color: indigo;
 } 
@@ -8,8 +8,17 @@
 body{
     text-align: center;
 }
+#correct{
+    color: gray;
+}
 h1{
     font-weight: 1000;
+}
+#initials{
+    visibility: hidden;
+}
+li{
+    list-style: none;
 }
 section{
     padding-top: 10%;

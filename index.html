@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <span id = "high-score">View Highscores</span>
+    <a href="./score.html">View Highscores</a>
     <span id = "counter"></span>
     <section>
-        <h1>Coding Quiz Challenge</h1>
-        <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect    answers will penalize your scoretime by ten seconds!</p>
-        <button id = "start">Start</button>
+        <div class = "instructions">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
+            <button id = "start">Start</button>
+        </div>
     </section>
+    <ul></ul>
+    <div id = "correct"></div>
+    <form id = "initials"> 
+        <label>Enter Initials</label> 
+        <input type="text">
+    </form>
     
     <script src="questions.js"></script>
     <script src="https://code.jquery.com/jquery.js"></script>
